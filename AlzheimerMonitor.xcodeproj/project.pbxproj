@@ -14,6 +14,8 @@
 		18A0A5121BFC7B5D00FD62F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0A5101BFC7B5D00FD62F3 /* LaunchScreen.storyboard */; };
 		18A0A51D1BFC7B5D00FD62F3 /* AlzheimerMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A51C1BFC7B5D00FD62F3 /* AlzheimerMonitorTests.swift */; };
 		18A0A52C1BFCA2C900FD62F3 /* TaskViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A52B1BFCA2C900FD62F3 /* TaskViewControllerTableViewController.swift */; };
+		18A0A52E1BFCA6C400FD62F3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A52D1BFCA6C400FD62F3 /* Task.swift */; };
+		18A0A5311BFCA78D00FD62F3 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A5301BFCA78D00FD62F3 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		18A0A51C1BFC7B5D00FD62F3 /* AlzheimerMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlzheimerMonitorTests.swift; sourceTree = "<group>"; };
 		18A0A51E1BFC7B5D00FD62F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A0A52B1BFCA2C900FD62F3 /* TaskViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		18A0A52D1BFCA6C400FD62F3 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		18A0A5301BFCA78D00FD62F3 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		18A0A5061BFC7B5D00FD62F3 /* AlzheimerMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				18A0A52F1BFCA77C00FD62F3 /* New Group */,
 				18A0A5071BFC7B5D00FD62F3 /* AppDelegate.swift */,
 				18A0A5091BFC7B5D00FD62F3 /* ViewController.swift */,
 				18A0A50B1BFC7B5D00FD62F3 /* Main.storyboard */,
@@ -86,6 +91,8 @@
 				18A0A5101BFC7B5D00FD62F3 /* LaunchScreen.storyboard */,
 				18A0A5131BFC7B5D00FD62F3 /* Info.plist */,
 				18A0A52B1BFCA2C900FD62F3 /* TaskViewControllerTableViewController.swift */,
+				18A0A52D1BFCA6C400FD62F3 /* Task.swift */,
+				18A0A5301BFCA78D00FD62F3 /* SampleData.swift */,
 			);
 			path = AlzheimerMonitor;
 			sourceTree = "<group>";
@@ -97,6 +104,13 @@
 				18A0A51E1BFC7B5D00FD62F3 /* Info.plist */,
 			);
 			path = AlzheimerMonitorTests;
+			sourceTree = "<group>";
+		};
+		18A0A52F1BFCA77C00FD62F3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A0A52E1BFCA6C400FD62F3 /* Task.swift in Sources */,
 				18A0A50A1BFC7B5D00FD62F3 /* ViewController.swift in Sources */,
 				18A0A52C1BFCA2C900FD62F3 /* TaskViewControllerTableViewController.swift in Sources */,
+				18A0A5311BFCA78D00FD62F3 /* SampleData.swift in Sources */,
 				18A0A5081BFC7B5D00FD62F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,8 @@
 import UIKit
 
 class TaskViewControllerTableViewController: UITableViewController {
-
+    var tasks:[Task] = tasksData
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,23 +30,24 @@ class TaskViewControllerTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return tasks.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCellWithIdentifier("TaskCell", forIndexPath: indexPath)
+        
+        let task = tasks[indexPath.row] as Task
+        cell.textLabel?.text = task.task
+        cell.detailTextLabel?.text = task.detail
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
